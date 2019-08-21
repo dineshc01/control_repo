@@ -1,1 +1,3 @@
-mod 'puppetlabs-docker', '3.7.0'
+class profile::docker {
+  include docker
+}
