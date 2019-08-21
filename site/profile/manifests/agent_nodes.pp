@@ -1,5 +1,5 @@
 class profile::agent_nodes {
-  include docker
+  #include docker
   docker::node { 'web.puppetmaster': }
   docker::node { 'db.puppetmaster': }
 }
